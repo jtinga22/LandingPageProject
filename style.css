@@ -1,34 +1,189 @@
-body{
-    margin: 0;
-}
-/*First Section*/
+/*Colors and Font Styles*/
+/*https://cdn.statically.io/gh/TheOdinProject/curriculum/main/foundations/html_css/project/odin-project.png */
 
-.topsection{
+/*dark background color(hero and footer) 
+    #1F2937*/
+/*Hero Main text(*This website is awsome*) 
+    48px extra-bold #F9FAF8*/
+/*Hero Secondary text, header link text 
+    18px #E5E7EB */
+/*Header logo text
+    24px #F9FAF8*/
+
+/*Button color, call to action background color
+    #3882F6*/
+/*Information header text
+    36px extra-bold #1F2937 */
+/*Quote section background color 
+    #E5E7EB */
+/*Quote text 
+    36px light italic #1F2937 */
+
+/*First part CSS*/
+
+
+
+body{
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: serif;
+}
+.top-background{
     background-color: #1F2937;
 }
-.logo{
-    margin: 2em;
-    margin-left: 5em;
-    height: auto;
-    width: 100px;
-}
-.navbar{ 
-    float: right;
-    margin-top: 40px;
-    margin-right: 2em;
-}
-a{
-    text-decoration: none;
-    margin: 5px;
-    color: white;   
-}
-.container{
+.top{
+    
     display: flex;
-    margin: 15px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-left: 100px;
+}
+.nav-link, a{
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    color: #BDF2D5;
+}
+a:hover{
+    color: #FF8D29;
+}
+/*--------------------------------*/
+.a-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 30px;
+}
+.a-lefttext{
+   margin: 10px;
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+}
+h2{
     color: white;
+    font-size: 48px;
+    font-weight: bolder;
+    m*a
+    rgin-top: -2%;
+    
 }
-h2, a{
-    color: coral;
+p{
+    color: white;
+    font-size: 26px;
+    text-align: justify;
+    margin-top: -2%;
 }
+.btn{
+    border-radius: 20px;
+    padding: 15px;
+    width: 200px;
+    background-color: #3882F6;
+    color: white;
+    margin-top: -1.5%;    
+}
+.btn:hover{
+    background-color: #FF8D29;
+}
+.a-rightimage >img{
+    border-radius: 10px;
+}
+
+/*--------------------------------*/
+
+#h3second{
+    color: black;
+}
+
+.b-midcontent, .img-row p{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    padding: 30px;
+   
+}
+
+
+/*--------------------------------*/
+.c-container{
+    background-color: #E5E7EB;
+    
+}
+
+.para{
+    color: #1F2937;
+    text-align: center;
+    font-style: italic;
+    font-size: 36px;
+}
+b{
+   
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -100px;
+    padding-bottom: 40px;
+    padding-right: 300px;
+    font-style: italic;
+   
+}
+/*--------------------------------*/
+.d-container{
+    border-radius: 5px;
+    width: 600px;
+    margin: 50px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+}
+
+.calltext{
+    text-align: left;
+   
+}
+#h3third{
+    color: white;
+    margin-bottom: 5px;
+}
+.text{
+    color: white;
+    margin-top: -3px;
+    font-size: 15px;
+}
+.d-btn button{
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background-color: #3882F6;
+    color: white;
+    margin-left:  40px;
+}
+
+
+/*--------------------------------*/
+
+.e-container{
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+}
+
+
 
 
